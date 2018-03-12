@@ -12,9 +12,18 @@
 }
 
 .mdl-layout__title {
-  font-size: 14px;
   text-align: center;
+}
+
+#titleText {
+  font-size: 1.25em;
+  color: black;
   font-weight: 300;
+}
+
+#subtitleText {
+  font-size: 0.75em;
+  color: black;
 }
 
 .is-compact .mdl-layout__title span {
@@ -22,7 +31,6 @@
 }
 
 .bsp-logo-row {
-  color: black;
   min-height: 200px;
 }
 
@@ -84,6 +92,19 @@
   left: 15%;
 }
 
+.bsp-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+#bsp-welcome-card__media {
+  background-color: white;
+}
+
+#bsp-welcome-card__img {
+  width: 100%;
+  height: auto;
+}
 
 .no-padding {
   padding: 0;
